@@ -1,7 +1,7 @@
 
 # SQL Mini project
 
-## Question 1
+## Mission 1
 
 Using the database WideWorldImporters, write a SQL query which reports the consistency between orders and their attached invoices.
 The resultset should report for each (CustomerID, CustomerName)
@@ -19,7 +19,7 @@ BUT, you must find them consistent as the data is clean in WideWorldImporters.
 
 
 
-## Question 2
+## Mission 2
 
 For the CustomerId = 1060 (CustomerName = 'Anand Mudaliyar')
 Identify the first InvoiceLine of his first Invoice, where "first" means the lowest respective IDs, and write an update query increasing the UnitPrice of this InvoiceLine by 20.
@@ -32,7 +32,7 @@ The target InvoiceID is purposefully not shown.
 
 
 
-## Question 3
+## Mission 3
 
 Using the database WideWorldImporters, write a T-SQL stored procedure called ReportCustomerTurnover.
 This procedure takes two parameters: Choice and Year, both integers.
@@ -64,7 +64,7 @@ EXEC dbo.ReportCustomerTurnover 2, 2015;
 EXEC dbo.ReportCustomerTurnover 3;
 
 
-## Question 4
+## Mission 4
 
 In the database WideWorldImporters, write a SQL query which reports the highest loss of money from orders not being converted into invoices, by customer category.
 
@@ -73,7 +73,7 @@ The name and id of the customer who generated this highest loss must also be ide
 You should be able to write it in pure SQL, but if too challenging, you may use T-SQL and cursors.
 
 
-## Question 5
+## Mission 5
 
 In the database SQLPlayground, write a SQL query selecting all the customers' data who have purchased all the products 
 
