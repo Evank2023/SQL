@@ -1,4 +1,4 @@
-# SQL
+
 # SQL Mini project
 
 ## Question 1
