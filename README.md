@@ -35,8 +35,7 @@ The target InvoiceID is purposefully not shown.
 ## Mission 3
 
 Using the database WideWorldImporters, write a T-SQL stored procedure called ReportCustomerTurnover.
-This procedure takes two parameters: Choice and Year, both integers.
-
+This procedure takes two parameters: 
 1 and Year = <aYear>, ReportCustomerTurnover selects all the customer names and their total monthly turnover (invoiced value) for the year <aYear>.
 
 NULL values in the resultsets are not acceptable and must be substituted to 0.
